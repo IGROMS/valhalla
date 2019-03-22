@@ -28,6 +28,7 @@ header {
 
 li {
   font-family: Helvetica, sans-serif;
+  color: white;
   display: inline-block;
   margin: 0 8px;
 }
