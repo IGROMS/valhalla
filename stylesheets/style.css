@@ -1,0 +1,105 @@
+
+*{
+  box-sizing: border-box;
+}
+
+.menu{
+  position: fixed;
+  background-color: rgba(255, 0, 0, 0.5);
+  height: 40px;
+  width: 100%;
+  z-index: 1;
+}
+
+body{
+
+}
+
+.series{
+  display: flex;
+  height: 960px;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+.title{
+  width: 50%
+}
+
+h2{
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+
+p{
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.content{
+  width: 50%;
+  height: auto;
+}
+
+.description{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.button-config{
+  text-align: center;
+}
+
+.backimageone{
+  background-image: url(https://www.bmw.es/content/dam/bmw/common/all-models/1-series/5-door/2017/Design/BMW-1series-5door-design-ts-01.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1493055186554.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.backimagetwo{
+  background-image: url(https://www.bmw.es/content/dam/bmw/common/all-models/m-series/m2-coupe/2018/at-a-glance/bmw-m-series-m2-exterior-intro-01-large.jpg.asset.1522767107410.jpg);
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.backimagethree{
+  background-image: url(https://www.autoscout24.es/assets/auto/images/model/bmw/bmw-m3/bmw-m3-l-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.backimagefour{
+  background-image: url(https://a.ccdn.es/cnet/contents/media/bmw/serie_4/1182881.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.backimagefive{
+  background-image: url(https://media.ed.edmunds-media.com/bmw/5-series/2019/td/2019_bmw_5-series_actf34_td_814181_1600.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.backimagesix{
+  background-image: url(https://www.autoscout24.es/assets/auto/images/model/bmw/bmw-m6/bmw-m6-l-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.backimageseven{
+  background-image: url(https://www.diariomotor.com/imagenes/2019/01/bmw-serie-7-todos-los-detalles-p90333104_highres.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.backimageeight{
+  background-image: url(https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2018/bmw-concept-m8-game-changer-chronographen/bmw-m8-cv-chronograph-cp-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
